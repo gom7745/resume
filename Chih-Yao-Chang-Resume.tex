@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com %
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com) %
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Calibri} % Main document font
+
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{balance}
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+\usepackage{booktabs}
+\usepackage{xspace}
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+% \usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+\usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0,0} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{5pt}{0pt} % Spacing around sections
+
+\usepackage{geometry}
+\geometry{
+a4paper,
+total={210mm,297mm},
+left=10mm,
+right=10mm,
+top=15mm,
+bottom=0mm,
+}
+
+\newcommand\st{\textsuperscript{st}\xspace}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr12]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\vspace*{-1.3cm}
+\par{\centering{\huge\textbf{CHIH-YAO CHANG}}\par} % Your name
+% \section{Personal Data}
+
+% \begin{tabular}{rl}
+\raggedleft {
++(65) 9244 2361 \hspace{2 mm}|\hspace{2 mm}\href{mailto:r04922044@ntu.edu.tw}{\underline{r04922044@ntu.edu.tw}}\hspace{2 mm}|\hspace{2 mm}\href{https://github.com/gom7745}{\faGithub \hspace{1 mm} github.com/gom7745}
+}
+\raggedleft {
+\underline{https://www.linkedin.com/in/alex-chang-0731a19b/}
+} \\
+% 6F., No.15, Aly. 46, Ln. 553, Sec. 4, Zhongxiao E. Rd., Xinyi Dist., Taipei City 110, Taiwan (R.O.C.)
+% \textsc{Research Interests:} &  Machine Learning,  Human Computer Interaction, \\
+% & Statistics, UI/UX, Web development\\
+
+% \end{tabular}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+% \vfill
+\vspace*{-5pt}
+
+\section{\Large\bf\textsc{Education}}
+
+% \begin{tabular}{rl}	
+\begin{tabular}{p{18.5cm}}
+{\bf{National Taiwan University (NTU)}}  \hfill \bf{Taipei, Taiwan}\\
+{\it M.S. in Computer Science \& Information Engineering} \hfill  Sep. 2015-Oct. 2017
+\begin{itemize}
+\item Coursework: Numerical Methods, Machine Learning, Applied Deep Learning, Muti-media Analysis and Indexing
+\item GPA: 3.95/4.3(\textbf{Top 3\%})\vspace*{-\baselineskip}
+\end{itemize}\\ 
+
+{\bf{National Taiwan University (NTU)}} \hfill \bf{Taipei, Taiwan}\\
+{\it B.S. in Computer Science} \hfill Sep. 2011-June 2015
+\begin{itemize}
+\item Coursework: Data Structures and Algorithms, Probability, Linear Algebra, Operating System, Computer Network, Computer Architecture, Machine Learning Foundations and Techniques, Parallel Programing, Artificial Intelligence, Music Signal Analysis \& Retrieval, Web Retrieval and Mining, Digital Speech Processing, Game Theory
+\item GPA: 3.63/4.3(\textbf{Top 35\%})
+\end{itemize} \\
+% \hfill \it{Overall GPA: 3.16/4.3; Last 60 GPA: 3.52/4.3}\\
+% \hfill \it{Last 60 GPA: 3.46/4.0}\\
+\end{tabular}
+\vspace*{-\baselineskip}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+\section{\Large\bf\textsc{Work Experience}}
+\begin{tabular}{p{18.5cm}}
+
+{\bf{Data Scientist \& AI Algorithm Engineer}} \hfill \bf{Shenzhen, China}\\
+{\it Huawei Technologies Co. ltd} \hfill  Feb. 2018-Feb. 2020\\%& \it Taipei, Taiwan\\
+\begin{itemize}
+\vspace{-3mm}
+\item Dedicate to recommender system and algorithms
+\begin{itemize}
+\item Reduce model training time by 4 times
+\item Combine different order of feature conjunction within a new optimization framework 
+\item Manage modeling techniques: model tuning, feature engineering, evaluation metrics, etc.
+\item Develope a recommender system platform to deploy the system on a new business within one week
+\end{itemize}
+\item Increase revenue for Recommendation Scenarios 
+\begin{itemize}
+\item Enhance advertising click-through rate (CTR) by discovering users’ preference and machine learning models 
+\item Lead a team of three personnel to make a 10\% increase in revenue for advertisements in Huawei Apps store 
+\item Make a 12\% increase in revenue for Huawei In-app purchases
+\item Deploy a recommender system on News Feed Ads
+\end{itemize}
+\end{itemize}
+\end{tabular}
+\vspace*{-\baselineskip}
+
+\section{\Large\bf\textsc{Publications}}
+\begin{tabular}{p{18.5cm}}
+
+{\bf{Improving Ad Click Prediction by Considering Non-displayed Events}} \hfill {\it Huawei Technologies Co. ltd}
+\begin{itemize}
+\item Authors: Bowen Yuan, Jui-Yang Hsia, Meng-Yuan Yang, Hong Zhu, Chih-Yao Chang, Zhenhua Dong, Chih-Jen Lin
+\item Published at ACM International Conference on Information and Knowledge Management (CIKM) 2019
+\end{itemize} \\
+\end{tabular}
+\vspace*{-\baselineskip}
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{\Large\bf\textsc{Projects}}
+\begin{tabular}{p{18.5cm}}
+
+{\bf{A Comparison of Optimization Methods for Large
+Scale Factorization Machine}},  {\it{M.S. Thesis}} \hfill Oct. 2016-Oct. 2017
+\begin{itemize}
+\item Implement Alternating Common-Directions Method (ACDM) in Matlab 
+\item Compared the speed between Alternating Newton Method (ANT) and ACDM for solving Factorization machine 
+\vspace*{-\baselineskip}
+\end{itemize} \\
+\vspace{.1mm}
+{\bf{Kaggle Competition: Outbrain Click Prediction}}  \hfill Oct. 2016-Jan. 2017
+\begin{itemize}
+\item Constructed a recommender system to enhance MAP@12 on Outbrain dataset
+\item Ranked at 43rd (Top 5\%) 
+\vspace*{-\baselineskip}
+\end{itemize}\\
+\vspace{.1mm}
+{\bf{KDD Cup 2016: Whose papers are accepted the most}}  \hfill Feb. 2016-May 2016
+\begin{itemize}
+\item Constructed a recommender system to enhance NDCG@20 on KDD cup dataset
+\item Ranked at 20th
+\vspace*{-\baselineskip}
+\end{itemize}\\
+\vspace{.1mm}
+{\bf{Distributed Large Scale Ranksvm}} \hfill Jan. 2016-Sep. 2016
+\begin{itemize}%[leftmargin=25pt]
+\item Reformulated Ranksvm problem for large scale Distributed system
+\item Implemented Distributed Ranksvm in C++
+\vspace*{-\baselineskip}
+\end{itemize}\\
+\vspace{.1mm}
+{\bf{Chord Recognition}}, {\it{Data Mining, Singal Processing}}, {\it{B.S. Thesis}} \hfill Feb. 2015-May 2015
+\begin{itemize}
+\item Extracted features of music via signal processing technique
+\item Trained a chord recognition model by Deep Learning
+\end{itemize}\\
+\end{tabular}
+\vspace*{-\baselineskip}
+%
+%
+%----------------------------------------------------------------------------------------
+%	SKILLS 
+%----------------------------------------------------------------------------------------
+\section{\Large\bf\textsc{Skills \& Interests}}
+\begin{tabular}{p{18.5cm}}
+{\bf{Proficient in:}} Python, C/C++, bash, SQL, Java, Scala, Linux, Git, Scikit-learn, Hive, Spark, Luigi, Linux, Tensorflow\\
+{\bf{Familiar with:}} R, PHP, JavaScript, NodeJS, {\fb \LaTeX}\\
+{\bf{Languages:}} Native in Mandarin; Fluent in English\\
+{\bf{Interests:}} {Sports}, {Street Dance}, {Music}, {Movie}\\
+% \normalsize\textbf{Interests:} Street Dance, Swing Dance, Chinese History\\
+\end{tabular}
+
+\end{document}
